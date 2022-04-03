@@ -1,0 +1,8 @@
+POST http://localhost:5000/users/signup HTTP/1.1
+Content-Type: application/json
+
+{
+    "email": "manikanta.alapati2000@gmail.com",
+    "password": "hello123",
+    "name": "Alapati Naga Sai Manikanta"
+}

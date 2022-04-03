@@ -1,0 +1,7 @@
+POST http://localhost:5000/files HTTP/1.1
+Content-Type: application/json
+Authorization: REPLACE_THIS_WITH_JWT_TOKEN_FROM_LOGIN_API_RESPONSE
+
+{
+    "content": "something"
+}
